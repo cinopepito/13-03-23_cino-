@@ -1,5 +1,5 @@
 <?php
-$color = 'green';
+$color = readline('enter your color :');
     switch($color){
         case'red':
             echo 'ma couleur est rouge';
@@ -16,5 +16,4 @@ $color = 'green';
         default:
         echo'enter this colour';
     }
-
 ?>
